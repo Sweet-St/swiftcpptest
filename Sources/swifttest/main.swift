@@ -5,7 +5,11 @@ import cxxLibrary
 
 print("Hello, world!")
 
+func testCpp()
+{
+    let cppObj = ClassImpl()
+    let result = cppObj.add(1, 2)
+    print(result)
+}
 
-let cppObj = ClassImpl()
-var result = cppObj.add(1, 2)
-print(result)
+testCpp()

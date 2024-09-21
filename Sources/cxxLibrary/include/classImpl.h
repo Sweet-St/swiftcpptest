@@ -7,6 +7,7 @@ public:
     ClassImpl();
     ~ClassImpl();
 public:
-    virtual int add(int a, int b) const;
+    // virtual
+    int add(int a, int b) const;
 };
 
